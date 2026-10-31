@@ -10,7 +10,7 @@ console.log(all_heroes)  // gives a whole new array and merges the two arrays
 // spread operator
 const all_new_heroes= [...marvel_heroes, ...dc_heroes]
 console.log(all_new_heroes)
-// Both can give same results but spread operator is used more often ijn modern code especially working on arrays in react
+// Both can give same results but spread operator is used more often in modern code especially working on arrays in react
 
 const another_array= [1,2,3, [5,6,8,6,[3,9,2,34]]]
 const real_another_array= another_array.flat(Infinity)
