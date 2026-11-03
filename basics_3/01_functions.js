@@ -72,3 +72,24 @@ function getSecondValue(myArr){
 
 }
 console.log(getSecondValue(myNewArray))
+
+
+
+
+
+
+
+
+
+const bakeryItems={
+    name:"bagel",
+    price:"5$",
+    calories:"500kcal"
+}
+
+function handleBakery(bakedGoods){
+    console.log(`Our top selling ${bakedGoods.name} are priced at ${bakedGoods.price}`)
+
+}
+
+handleBakery(bakeryItems)
