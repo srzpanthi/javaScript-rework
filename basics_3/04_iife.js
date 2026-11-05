@@ -24,3 +24,19 @@
 (function anotherCode(){
     console.log("Another IIFE")
 }) ()
+
+
+// JavaScript execution context
+//{}- global execution context -this
+// function execution context
+// Eval execution context
+
+
+//1. memory execution phase
+//2. Execution phase
+
+
+
+
+
+
